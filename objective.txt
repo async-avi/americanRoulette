@@ -1,0 +1,6 @@
+### Game logic
+1. Create a random number generator which will return the random number as R
+2. Create a class Player with attributes userId, name, initialBalance, winGames, loseGames and constructor
+3. Create a playbet() inside Player which will take a guess number and match it with R, simple if-else, if guess=R, player wins (watch 4th point), else player lose (watch 5th point)
+4. Player win, then balance + bet*2, winGames + 1
+5. Player lose, then balance - bet, loseGames + 1
